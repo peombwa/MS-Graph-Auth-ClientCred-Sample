@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Graph" Version="1.15.0" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Graph.Auth">
+      <HintPath>..\..\..\..\..\microsoftgraph\msgraph-sdk-dotnet-auth\src\Microsoft.Graph.Auth\bin\Debug\net45\Microsoft.Graph.Auth.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

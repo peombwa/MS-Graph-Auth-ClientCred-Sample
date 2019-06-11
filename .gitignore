@@ -3,3 +3,5 @@
 ################################################################################
 
 /MSGraphAuthClientCredSample/obj
+/MSGraphAuthClientCredSample/bin/Debug/netcoreapp3.0
+/.vs/MSGraphAuthClientCredSample
